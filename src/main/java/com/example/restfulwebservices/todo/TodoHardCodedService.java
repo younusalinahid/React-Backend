@@ -11,7 +11,7 @@ import java.util.List;
 public class TodoHardCodedService {
 
     private static final List<Todo> todos = new ArrayList<>();
-    private static int idCounter = 0;
+    private static long idCounter = 0;
 
     static {
         todos.add(new Todo(++idCounter, "React-Spring boot","Learn React", new Date(), false));
